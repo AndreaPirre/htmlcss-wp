@@ -68,7 +68,7 @@ li {
 }
 
 a {
-    color: #E1E1E1;
+    color: #fff;
     text-decoration: none;
     margin: 10px 10px;
     font-family: arial;
@@ -99,20 +99,22 @@ a {
     float: left;
     margin-top: 1%;
     /* debug */
-    height: 300px;
+    /* height: 300px; */
     background-color: #fff;
     border-radius: 8px;
+    padding: 10px;
 }
 
 .iconarss {
     width: 30px;
     height: 30px;
     border-radius: 2px;
-    margin-left: 5px;
-    margin-top: 5px;
+    /* margin-left: 5px;
+    margin-top: 5px; */
     background-image: url('../img/rss.png');
     background-size: cover;
     display: inline-block;
+
     /* background-color: red; */
 }
 
@@ -147,8 +149,8 @@ h2 {
 }
 
 h3 {
-    margin-bottom: 30px;
-
+    margin-bottom: 20px;
+    font-size: 25px;
 }
 
 /* blocchi lato destro */
@@ -172,5 +174,45 @@ h3 {
     width: 100%;
     height: 200px;
     /* debug */
-    background-color: #ABCDEF;
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.instagram {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.facebook {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.git {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+
+
+
+}
+
+
+
 }
