@@ -39,6 +39,7 @@ body {
     border: 5px solid #fff;
     padding: 10px;
     font-family: arial;
+    letter-spacing: 15px;
 }
 
 .sottotitolo {
@@ -58,9 +59,28 @@ body {
     height: 50px;
     background-color: #5F5F5F;
     position: relative;
+}
 
+li {
+    display: inline-block;
+    line-height: 50px;
+}
+
+a {
+    color: #E1E1E1;
+    text-decoration: none;
+    margin: 10px 10px;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tasti {
+    text-align: center;
 
 }
+
+
 
 
 
